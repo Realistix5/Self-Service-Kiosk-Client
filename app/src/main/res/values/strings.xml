@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Self-Service Kiosk</string>
+
+    <!-- SettingsActivity -->
+    <string name="payment_url_settings_label">Zahlungs Custom-URL</string>
+    <string name="payment_url_settings_scheme_label">URL Schema</string>
+    <string name="payment_url_settings_scheme_hint">sumup</string>
+    <string name="payment_url_settings_host_label">URL Host</string>
+    <string name="payment_url_settings_host_hint">bezahlen</string>
+
+    <string name="website_settings_label">Webseite</string>
+    <string name="website_settings_start_url_label">Start-URL</string>
+    <string name="website_settings_start_url_hint">https://meine-seite.de</string>
+    <string name="website_settings_success_url_label">Erfolgsmeldungs-URL</string>
+    <string name="website_settings_success_url_hint">https://meine-seite.de/erfolg</string>
+    <string name="website_settings_error_url_label">Fehlermeldungs-URL</string>
+    <string name="website_settings_error_url_hint">https://meine-seite.de/fehler</string>
+
+    <string name="save_settings_button_text">Speichern</string>
+
+    <string name="webview_settings_label">WebView</string>
+    <string name="webview_settings_ignore_ssl_errors_label">Ignoriere SSL Fehler</string>
+
+    <string name="payment_settings_label">Zahlungen</string>
+    <string name="payment_settings_skip_success_screen_label">Überspringe Erfolgs Seite</string>
+    <string name="payment_settings_skip_error_screen_label">Überspringe Fehler Seite</string>
+    <string name="payment_settings_title_label">Zahlungs-Titel</string>
+    <string name="payment_settings_title_hint">Zahlung an Verein XY e.V.</string>
+    <string name="payment_settings_currency_code_label">Währungs-Code</string>
+    <string name="payment_settings_currency_code_hint">EUR</string>
+    <string name="payment_settings_affiliate_key_label">SumUp Affiliate Key</string>
+    <string name="payment_settings_affiliate_key_hint">sup_afk_abcdefg123xyz</string>
+    <string name="payment_settings_tip_on_card_reader_label">Auf Kartenlesegerät Trinkgeld eingeben</string>
+
+    <!-- Messages -->
+    <string name="not_logged_in_message">Nicht eingeloggt.</string>
+    <string name="device_pin_required_title">Geräte-PIN erforderlich</string>
+    <string name="device_pin_required_end_description">Bitte geben Sie Ihre Geräte-PIN ein, um den Kiosk-Modus zu beenden.</string>
+    <string name="device_pin_required_start_description">Bitte geben Sie Ihre Geräte-PIN ein, um den Kiosk-Modus zu starten.</string>
+    <string name="no_device_lock_available_message">Gerätesperre ist nicht eingerichtet. Der Kiosk-Modus kann nicht beendet werden.</string>
+    <string name="authentification_failed_message">Authentifizierung fehlgeschlagen</string>
+    <string name="settings_saved_message">Einstellungen gespeichert.</string>
+    <string name="settings_discarded_message">Änderungen an den Einstellungen wurden verworfen.</string>
+    <string name="welcome_message">Wilkommen in der Self-Service Kiosk App!</string>
+    <string name="settings_not_set_message">Bitte setzen Sie alle erforderlichen Einstellungen.</string>
+    <string name="unsaved_changes_title">Änderungen verwerfen</string>
+
+    <string name="unsaved_changes_message">Es gibt ungespeicherte Änderungen. Möchten Sie diese verwerfen?</string>
+    <string name="unsaved_changes_response_positive">Ja</string>
+    <string name="unsaved_changes_response_negative">Nein</string>
+
+    <!-- MainActivity button texts -->
+    <string name="login_button_text">Händler Login</string>
+    <string name="show_logged_in_merchant_button_text">Eingeloggten Händler anzeigen</string>
+    <string name="log_out_button_text">Händler Logout</string>
+    <string name="card_reader_page_button_text">Kartenleser Seite</string>
+    <string name="start_webview_activity_button_text">Starte Kundenanwendung</string>
+    <string name="open_settings_activity_button_text">Einstellungen</string>
+
+    <!-- More strings -->
+
+</resources>
